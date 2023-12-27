@@ -10,11 +10,11 @@ spring:
           uri: https://github.com/cuneytky/ticketing-project-microservices-config
           default-label: main
           username: Cuneyt
-          password: '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'
+          password: '{cipher}828dc51e84d03e356c045ad86fa6ba741c7c38803674b41ae2d3c1771adae09a73f23c88b5f1ac11f3096e9a0adb70eda153ee666ef159f8dcae584b6a7f5900'
       fail-fast: true
 
-#encrypt:
-#  key: cydeo
+encrypt:
+  key: cydeo
 
 server:
   port: 8888
